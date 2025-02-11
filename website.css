@@ -1,0 +1,103 @@
+
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f8f9fa;
+    }
+
+    header {
+      background-color: #343a40;
+      color: white;
+      padding: 15px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 24px;
+    }
+
+    header nav {
+      display: flex;
+      gap: 15px;
+    }
+
+    header nav a {
+      color: white;
+      text-decoration: none;
+      font-size: 16px;
+    }
+
+    header nav a:hover {
+      text-decoration: underline;
+    }
+
+    main {
+      max-width: 1200px;
+      margin: 20px auto;
+      padding: 20px;
+    }
+
+    .course {
+      display: flex;
+      flex-direction: column;
+      background-color: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      margin-bottom: 20px;
+      overflow: hidden;
+    }
+
+    .course img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .course-content {
+      padding: 15px;
+    }
+
+    .course-content h2 {
+      margin: 0 0 10px;
+      font-size: 20px;
+    }
+
+    .course-content p {
+      margin: 0 0 10px;
+      font-size: 14px;
+      color: #555;
+    }
+
+    .course-content .price {
+      font-size: 18px;
+      font-weight: bold;
+      color: #007bff;
+    }
+
+    .course-content button {
+      background-color: #007bff;
+      color: white;
+      border: none;
+      padding: 10px 15px;
+      border-radius: 4px;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+
+    .course-content button:hover {
+      background-color: #0056b3;
+    }
+
+    footer {
+      background-color: #343a40;
+      color: white;
+      text-align: center;
+      padding: 10px 0;
+      position: fixed;
+      width: 100%;
+      bottom: 0;
+    }
